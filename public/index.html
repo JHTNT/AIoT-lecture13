@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>地震報告查詢</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>地震報告查詢</h1>
+      <p id="sourceInfo"></p>
+    </header>
+
+    <main>
+      <section class="list">
+        <h2>選擇地震編號</h2>
+        <ul id="eqList"></ul>
+      </section>
+
+      <section class="detail">
+        <h2>報告內容</h2>
+        <div id="eqDetail" class="card">
+          <p>請從左側選擇一筆報告。</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

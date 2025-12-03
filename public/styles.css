@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans", "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji"; margin: 0; background: #f8fafc; color: #0f172a; }
+header { padding: 16px 24px; background: #0ea5e9; color: white; }
+main { display: grid; grid-template-columns: 280px 1fr; gap: 16px; padding: 16px; }
+
+.list { background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; }
+.detail { background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; }
+
+#eqList { list-style: none; padding: 0; margin: 0; }
+#eqList li { padding: 10px 8px; border-bottom: 1px solid #e2e8f0; cursor: pointer; }
+#eqList li:hover { background: #f1f5f9; }
+#eqList li.active { background: #e0f2fe; }
+
+.card { display: grid; gap: 12px; }
+.card img { max-width: 100%; border: 1px solid #e2e8f0; border-radius: 8px; }
+
+.intensity-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; }
+.intensity-item { border: 1px solid #e2e8f0; border-radius: 8px; padding: 8px; background: #f8fafc; }
+.intensity-item .county { font-weight: 600; }
+.intensity-item .level { color: #2563eb; }
+
+h2 { margin-top: 0; }
