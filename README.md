@@ -1,5 +1,7 @@
 # 地震報告查詢
 
+Demo: <https://aiot-lecture13-bnj7hegwetff8y7k99vxa5.streamlit.app/>
+
 本專案示範如何使用中央氣象署地震開放資料，取得最近數筆地震報告，並用 **Streamlit**（以及原本的 Node.js + 前端網頁）進行展示。
 
 資料來源分為兩種模式：
